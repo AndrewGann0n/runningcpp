@@ -6,5 +6,8 @@
 class Kilo{
     public:
 
-        
-}
+        virtual void kilorace(){};
+        virtual void marathon(){};
+};
+
+#endif // RACES_H 

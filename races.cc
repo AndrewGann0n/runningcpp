@@ -21,6 +21,10 @@ class Races: public Kilo {
         if (miles < 3.26){
             cout << "you did not run enough for a 5k";
     }
-
     
 }
+
+    void marathon(){
+        
+    }
+};
