@@ -25,6 +25,14 @@ class Races: public Kilo {
 }
 
     void marathon(){
-        
+        if (miles > 13.1 & miles < 26.2){
+            cout << "You ran at least a half marathon";
+        }
+        if (miles > 26.2){
+            cout << "You ran a half marathon";
+        }
+        if (miles < 13.1 & miles < 26.2){
+            cout << "You did not run a half marathon or a marathon";
+        }
     }
 };

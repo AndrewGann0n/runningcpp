@@ -12,8 +12,10 @@ int main()
     Races rw;
 
     Races *interface1 = &rw;
+    Races *interface2 = &rw;
 
     interface1->kilorace();
+    interface2->marathon();
 
 
     cout << "Welcome" << endl;
