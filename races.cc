@@ -7,6 +7,7 @@ using namespace std;
 double miles;
 double feet;
 double yards;
+double speedperhour;
 
 class Races: public Kilo {
     public:
@@ -38,7 +39,19 @@ class Races: public Kilo {
 
     void walk(){
         if (miles > 2){
-            cout << "You ran at least two miles";
+            cout << "You walked at least two miles";
+        }
+    }
+
+    void speed(){
+        if (speedperhour < 3.5){
+            cout << "You are walking";
+        }
+        if (speedperhour > 5.5 & speedperhour < 12){
+            cout << "You are jogging";
+        }
+        if (speedperhour > 12 & speedperhour < 17.5){
+            cout << "You are running fast";
         }
     }
 };
