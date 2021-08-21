@@ -35,4 +35,10 @@ class Races: public Kilo {
             cout << "You did not run a half marathon or a marathon";
         }
     }
+
+    void walk(){
+        if (miles > 2){
+            cout << "You ran at least two miles";
+        }
+    }
 };
