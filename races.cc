@@ -53,5 +53,8 @@ class Races: public Kilo {
         if (speedperhour > 12 & speedperhour < 17.5){
             cout << "You are running fast";
         }
+        if (speedperhour > 20){
+            cout << "You are sprinting";
+        }
     }
 };
