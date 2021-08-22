@@ -10,6 +10,8 @@ class Kilo{
         virtual void marathon(){};
         virtual void walk(){};
         virtual void speed(){};
+
+    private:
 };
 
 #endif // RACES_H 

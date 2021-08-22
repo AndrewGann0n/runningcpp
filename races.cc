@@ -2,16 +2,15 @@
 #include <string>
 #include "races.h"
 
+
 using namespace std;
 
 double miles;
-double feet;
-double yards;
 double speedperhour;
 
 class Races: public Kilo {
     public:
-    double miles;
+
     void kilorace(){
         if (miles > 3.26 & miles < 7.26){
         cout << "You ran at least a 5k";
