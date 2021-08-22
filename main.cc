@@ -6,7 +6,7 @@
 using namespace std;
 
 
-
+double miles;
 
 int main()
 {
