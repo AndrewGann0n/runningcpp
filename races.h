@@ -6,6 +6,7 @@
 class Kilo{
     public:
 
+        virtual void intro(){};
         virtual void kilorace(){};
         virtual void marathon(){};
         virtual void walk(){};

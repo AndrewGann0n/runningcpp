@@ -12,6 +12,13 @@ class Races: public Kilo {
     public:
     double miles;
 
+    void intro(){
+        cout << "Welcome" << endl;
+        cout << "This is a program used to calculate running progress" << endl;
+        cout << "Enter the number of miles run to the nearest tenth" << endl;
+        cin >> miles;
+    }
+
     void kilorace(){
         if (miles > 3.26 & miles < 7.26){
         cout << "You ran at least a 5k" << endl;
