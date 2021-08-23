@@ -5,12 +5,12 @@
 
 using namespace std;
 
-// double miles;
-// double speedperhour;
+
 
 class Races: public Kilo {
     public:
     double miles;
+    double speedperhour;
 
     void intro(){
         cout << "Welcome" << endl;
@@ -50,18 +50,18 @@ class Races: public Kilo {
         }
     }
 
-    // //void speed(){
-    //     if (speedperhour < 3.5){
-    //         cout << "You are walking";
-    //     }
-    //     if (speedperhour > 5.5 & speedperhour < 12){
-    //         cout << "You are jogging";
-    //     }
-    //     if (speedperhour > 12 & speedperhour < 17.5){
-    //         cout << "You are running fast";
-    //     }
-    //     if (speedperhour > 20){
-    //         cout << "You are sprinting";
-    //     }
-    // }
+    void speed(){
+        if (speedperhour < 3.5){
+            cout << "You are walking";
+        }
+        if (speedperhour > 5.5 & speedperhour < 12){
+            cout << "You are jogging";
+        }
+        if (speedperhour > 12 & speedperhour < 17.5){
+            cout << "You are running fast";
+        }
+        if (speedperhour > 20){
+            cout << "You are sprinting";
+        }
+    }
 };

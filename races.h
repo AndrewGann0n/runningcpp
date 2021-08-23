@@ -10,7 +10,7 @@ class Kilo{
         virtual void kilorace(){};
         virtual void marathon(){};
         virtual void walk(){};
-        // virtual void speed(){};
+        virtual void speed(){};
 
     private:
 };
