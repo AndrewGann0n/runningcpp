@@ -21,7 +21,7 @@ class Races: public Kilo {
         cout << " " << endl;
         cin >> miles;
         cout << " " << endl;
-        cout << "Enter the average walking speed to the nearest tenth: " << endl;
+        cout << "Enter the average pace to the nearest tenth(measured in mph): " << endl;
         cout << " " << endl;
         cin >> speedperhour;
         cout << " " << endl;
