@@ -15,8 +15,10 @@ class Races: public Kilo {
     void intro(){
         cout << "Welcome" << endl;
         cout << "This is a program used to calculate running progress" << endl;
-        cout << "Enter the number of miles run to the nearest tenth" << endl;
+        cout << "Enter the number of miles run to the nearest tenth: " << endl;
         cin >> miles;
+        cout << "Enter the average walking speed to the nearest tenth: " << endl;
+        cin >> speedperhour;
     }
 
     void kilorace(){
@@ -51,17 +53,17 @@ class Races: public Kilo {
     }
 
     void speed(){
-        if (speedperhour < 3.5){
-            cout << "You are walking";
+        if (speedperhour <= 5.5){
+            cout << "You are walking" << endl;
         }
         if (speedperhour > 5.5 & speedperhour < 12){
-            cout << "You are jogging";
+            cout << "You are jogging" << endl;
         }
         if (speedperhour > 12 & speedperhour < 17.5){
-            cout << "You are running fast";
+            cout << "You are running fast" << endl;
         }
         if (speedperhour > 20){
-            cout << "You are sprinting";
+            cout << "You are sprinting" << endl;
         }
     }
 };
