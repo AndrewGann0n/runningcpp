@@ -68,19 +68,19 @@ class Races: public Kilo {
     void speed(){
         if (speedperhour <= 5.5){
             cout << " " << endl;
-            cout << "You are walking" << endl;
+            cout << "You were walking" << endl;
         }
         if (speedperhour > 5.5 & speedperhour < 12){
             cout << " " << endl;
-            cout << "You are jogging" << endl;
+            cout << "You were jogging" << endl;
         }
         if (speedperhour > 12 & speedperhour < 17.5){
             cout << " " << endl;
-            cout << "You are running fast" << endl;
+            cout << "You were running fast" << endl;
         }
         if (speedperhour > 20){
             cout << " " << endl;
-            cout << "You are sprinting" << endl;
+            cout << "You were sprinting" << endl;
         }
     }
 };
