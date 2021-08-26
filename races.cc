@@ -20,6 +20,14 @@ class Races: public Kilo {
         cout << "Enter the number of miles run to the nearest tenth: " << endl;
         cout << " " << endl;
         cin >> miles;
+        if (miles == 0)
+        {
+
+        Races::ifzero();
+        exit(1);
+
+        }
+        
         cout << " " << endl;
         cout << "Enter the average pace to the nearest tenth(measured in mph): " << endl;
         cout << " " << endl;
@@ -84,8 +92,7 @@ class Races: public Kilo {
         }
     }
 
-    protected: 
-        void ifzero(){
+    void ifzero(){
             if (miles == 0){
                 cout << " " << endl;
                 cout << "You did not run" << endl;

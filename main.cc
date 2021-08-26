@@ -21,15 +21,17 @@ int main()
     Races *interface3 = &rw;
     Races *interface4 = &rw;
     Races *interface5 = &rw;
+    Races *interface6 = &rw;
+    
+    
 
     interface1->intro();
     interface2->kilorace();
     interface3->marathon();
     interface4->walk();
     interface5->speed();
-
-
-
+    interface6->ifzero();
+    
     
 
 }
