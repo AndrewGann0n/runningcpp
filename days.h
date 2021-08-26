@@ -5,8 +5,7 @@
 
 class Hours{
     public: 
-
-
+        virtual void weathertype(){};
 
     private:
 };

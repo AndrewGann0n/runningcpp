@@ -8,8 +8,6 @@
 using namespace std;
 
 
-
-
 int main()
 {
 
@@ -23,7 +21,7 @@ int main()
     Races *interface5 = &rw;
     Races *interface6 = &rw;
     
-    
+    Days *output1 = &dy;
 
     interface1->intro();
     interface2->kilorace();
@@ -31,7 +29,9 @@ int main()
     interface4->walk();
     interface5->speed();
     interface6->ifzero();
+
+    cout << " " << endl;
     
-    
+    output1->weathertype();
 
 }
