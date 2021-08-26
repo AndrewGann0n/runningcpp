@@ -83,4 +83,12 @@ class Races: public Kilo {
             cout << "You were sprinting" << endl;
         }
     }
+
+    protected: 
+        void ifzero(){
+            if (miles == 0){
+                cout << " " << endl;
+                cout << "You did not run" << endl;
+            }
+        }
 };
