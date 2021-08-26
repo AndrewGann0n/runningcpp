@@ -2,6 +2,8 @@
 #include <string>
 #include "races.cc"
 #include "races.h"
+#include "days.cc"
+#include "days.h"
 
 using namespace std;
 
@@ -12,6 +14,7 @@ int main()
 {
 
     Races rw;
+    Days dy;
 
     Races *interface1 = &rw;
     Races *interface2 = &rw;
