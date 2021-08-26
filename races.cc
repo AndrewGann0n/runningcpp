@@ -17,6 +17,8 @@ class Races: public Kilo {
         cout << " " << endl;
         cout << "This is a program used to calculate running progress" << endl;
         cout << " " << endl;
+        cout << "Enter '0.449' to quit " << endl;
+        cout << " " << endl;
         cout << "Enter the number of miles run to the nearest tenth: " << endl;
         cout << " " << endl;
         cin >> miles;
@@ -27,11 +29,23 @@ class Races: public Kilo {
         exit(1);
 
         }
+        if (miles == 0.449)
+        {
+            
+        exit(1);
+
+        }
         
         cout << " " << endl;
         cout << "Enter the average pace to the nearest tenth(measured in mph): " << endl;
         cout << " " << endl;
         cin >> speedperhour;
+        if (speedperhour == 0.449)
+        {
+
+        exit(1);
+
+        }
         cout << " " << endl;
     }
 
