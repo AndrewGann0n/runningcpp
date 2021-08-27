@@ -11,17 +11,19 @@ class Days: public Hours {
         string cloudy;
         double hours;
 
-        char weather[7];
+        std::string weather;
 
         void weathertype(){
             cout << "What was the weather like? \t"  
-            "Enter 'sunny' 'rainy' or 'cloudy': " << endl;
+            "Enter 'sunny', 'rainy', or 'cloudy': " << endl;
             cout << " " << endl;
             cin >> weather;
-            if (weather == rainy){
+            if (weather == "rainy"){
+                cout << " " << endl;
                 cout << "How long did it rain for ?" << endl;
                 cout << " " << endl;
                 cin >> hours;
+                cout << " " << endl;
                 if (hours < 1){
                     cout << "Only a slight drizzle" << endl;
                 }
