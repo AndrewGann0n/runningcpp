@@ -14,8 +14,8 @@ class Days: public Hours {
         char weather[7];
 
         void weathertype(){
-            cout << "What was the weather like?" 
-            "(Enter 'sunny' 'rainy' or 'cloudy') " << endl;
+            cout << "What was the weather like? \t"  
+            "Enter 'sunny' 'rainy' or 'cloudy': " << endl;
             cout << " " << endl;
             cin >> weather;
             if (weather == rainy){
