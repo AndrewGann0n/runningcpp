@@ -31,6 +31,10 @@ class Days: public Hours {
                     cout << "You should have chose another day to run" << endl;
                 }
             }
+            if (weather == "sunny"){
+                cout << " " << endl;
+                cout << "Wear sunscreen " << endl;
+            }
         }
 
 };
