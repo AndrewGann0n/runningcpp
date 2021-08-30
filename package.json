@@ -1,0 +1,19 @@
+{
+  "name": "runningcpp",
+  "version": "1.0.0",
+  "description": "running app in c++",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewGann0n/runningcpp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewGann0n/runningcpp/issues"
+  },
+  "homepage": "https://github.com/AndrewGann0n/runningcpp#readme"
+}
