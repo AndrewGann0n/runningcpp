@@ -8,9 +8,17 @@
 
 using namespace std;
 
+void testing()
+{
+    cout << "test" << endl;
+}
+
 
 int main()
 {
+    cout << " " << endl;
+
+    std::thread sample(testing);
 
     Races rw;
     Days dy;
