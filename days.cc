@@ -10,6 +10,7 @@ class Days: public Hours {
         string rainy;
         string cloudy;
         double hours;
+        
 
         std::string weather;
 
@@ -35,6 +36,7 @@ class Days: public Hours {
                 cout << " " << endl;
                 cout << "Wear sunscreen " << endl;
             }
+            
         }
 
 };
