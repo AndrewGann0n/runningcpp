@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/AndrewGann0n/runningcpp/issues"
   },
-  "homepage": "https://github.com/AndrewGann0n/runningcpp#readme"
+  "homepage": "https://github.com/AndrewGann0n/runningcpp#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.2"
+  }
 }
