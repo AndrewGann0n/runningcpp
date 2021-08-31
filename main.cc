@@ -20,6 +20,8 @@ int main()
 
     std::thread sample(testing);
 
+    sample.join();
+
     Races rw;
     Days dy;
 
